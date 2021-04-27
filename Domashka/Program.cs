@@ -34,6 +34,7 @@ namespace Domashka
             thread3.Join();
 
             Console.ReadKey();
+
         }
     }
 }
