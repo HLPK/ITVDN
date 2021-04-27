@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domashka", "Domashka\Domashka.csproj", "{3AA19AAA-BA9C-44EA-9DC4-CBD0990C6497}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threads", "Threads", "{5D7546FE-573E-4FA5-A923-B0F7431324EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteToFiles", "..\WriteToFiles\WriteToFiles\WriteToFiles.csproj", "{8D0E9F20-2189-4835-AB84-CC8AD86B4D68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,17 @@ Global
 		{3AA19AAA-BA9C-44EA-9DC4-CBD0990C6497}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AA19AAA-BA9C-44EA-9DC4-CBD0990C6497}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AA19AAA-BA9C-44EA-9DC4-CBD0990C6497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0E9F20-2189-4835-AB84-CC8AD86B4D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0E9F20-2189-4835-AB84-CC8AD86B4D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0E9F20-2189-4835-AB84-CC8AD86B4D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0E9F20-2189-4835-AB84-CC8AD86B4D68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3AA19AAA-BA9C-44EA-9DC4-CBD0990C6497} = {5D7546FE-573E-4FA5-A923-B0F7431324EA}
+		{8D0E9F20-2189-4835-AB84-CC8AD86B4D68} = {5D7546FE-573E-4FA5-A923-B0F7431324EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B32FF10-18D8-4C59-A77C-50BC60BCB553}
