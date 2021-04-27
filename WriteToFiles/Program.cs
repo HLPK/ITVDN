@@ -19,8 +19,21 @@ namespace WriteToFiles
 
             Thread thread2 = new Thread(ManageFile2);
             thread2.Start();
+            thread2.Join();
+
+            Thread thread3 = new Thread(ShowFile3);
+            thread3.Start();
 
             Console.ReadKey();
+        }
+
+        private static void ShowFile3()
+        {
+            using (StreamReader streamReader = File.OpenText("File3.txt"))
+            {
+                string text = streamReader.ReadToEnd();
+                Console.WriteLine("File3: "+text);
+            }
         }
 
         private static void ManageFile1()
