@@ -33,7 +33,8 @@ namespace Domashka
             thread3.Start();
             thread3.Join();
 
-            Console.ReadKey();
+            Console.ReadKey(); 
+            //Задание сделано правильно!
         }
     }
 }
