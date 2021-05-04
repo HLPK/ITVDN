@@ -47,6 +47,7 @@ namespace SemaphorePool
         {
             FileStream fileStream = new FileStream("Log.txt", FileMode.Create);
             fileStream.Close();
+
         }
 
         static void Main(string[] args)
